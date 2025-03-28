@@ -1,0 +1,10 @@
+{
+  "extensionDescription": {
+    "description": "Extension description",
+    "message": "This extension filters images from Twitter posts using a large language model (LLM). It allows users to specify criteria for filtering images based on their content, enhancing the relevance of visual media in their Twitter feed."
+  },
+  "extensionName": {
+    "description": "Extension name",
+    "message": "Twitter LLM Image Filter"
+  }
+}

@@ -1,0 +1,11 @@
+/* Style for controversial content warning */
+.anchors-csui-container[data-controversial="true"] {
+  width: 100%;
+  height: 100%;
+  display: block !important;
+}
+
+/* Hide the original article when showing the warning */
+.anchors-csui-container[data-controversial="true"] + article {
+  display: none;
+}
