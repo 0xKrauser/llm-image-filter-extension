@@ -1,6 +1,6 @@
 import type { CSUIAnchor } from '@extension/anchors';
 import { useRef, useState, useEffect } from 'react';
-import { type Tag, type Tweet, tweetStorage } from '../../../packages/storage';
+import { type Tag, type Tweet, tweetStorage } from '@extension/storage';
 
 type ShowableTweet = Tweet & {
   shown?: boolean;
